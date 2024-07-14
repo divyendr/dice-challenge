@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dicee challenge</title>
+    <link rel="icon" href="dice6.png">
+    <style>
+        body{
+            background-color: aqua;
+        }
+    .container{
+        margin:auto;
+        text-align:center;
+    }
+    footer{
+        text-align:center;
+        margin-top: 20px;
+       
+    }
+    .dice{
+        text-align: center;
+        display:inline-block;
+    }
+        img{
+            height:300px;
+            width:300px;
+           
+        }
+        button{
+            border-radius: 20%;
+           margin-top: 20px;
+        }
+        h1{
+            font-size:100px;
+            color:rgb(227, 16, 16);
+            text-align:center;
+        }
+        .div{
+            display:flex;
+            justify-content:center;
+        }
+        .button{
+            display:flex;
+            justify-content:center;
+            
+        }
+        #win{
+            color:rgb(42, 214, 142);
+            text-align: center;
+            font-size: 70px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .made{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="div"><h1 >dice challenge</h1>
+    <img style="height:150px; width:150px;" src="flag.png" alt="flag"></div>
+    <p id="win" style="display:none;">hello</p>
+<div class="container">
+    <div class="dice"> 
+    <p class="para">player 1</p>
+    <img id="player-1" class="image" src="dice6.png" alt="dice6">
+    </div>
+    <div class="dice"> 
+        <p class="para">player 2</p>
+        <img id="player-2" class="image" src="dice6.png" alt="dice6">
+        </div>
+</div>
+
+<div class="button"> <button type="" onclick="winner();">play</button></div>
+<div class="made"><p>MADE BY</p>
+<p> Jk</p></div>
+ <footer> 🎲🎲🎲</footer>
+
+<script src="dicee.js"></script>
+</body>
+</html>
